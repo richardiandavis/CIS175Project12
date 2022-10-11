@@ -1,3 +1,8 @@
+//Rich Davis
+//Oct 10, 2022
+//Project 12
+
+
 #include <iostream>
 #include <iomanip>
 using namespace std;
@@ -18,7 +23,7 @@ int main() {
 			cout << "Jars sold last month of " << left << setw(6) << salsaTypes[i] << ": ";
 			cin >> numberSold;
 			if (numberSold < 0) {
-				cout << "\ninvalid amount entered. try again";
+				cout << "invalid amount entered. try again\n";
 				continue;
 			}
 			else {
